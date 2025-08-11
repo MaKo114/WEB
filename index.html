@@ -33,6 +33,12 @@
         .text-center {
             background-color: rgba(0, 0, 0, 0.05);
         }
+        .navbar .nav-link {
+             transition: color 0.2s ease;
+        }
+        .navbar .nav-link:hover{
+            color: #ddd !important;
+        }
     </style>
 </head>
 
@@ -44,7 +50,7 @@
 
             <a class="navbar-brand text-light" href="#home">T-pop</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#listmenu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#listmenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
